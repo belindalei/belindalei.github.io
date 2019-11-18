@@ -41,6 +41,70 @@ p.lead {
   font-weight: 400;
 }
 
+/*carousel css */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #015249;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #015249;
+}
+
+.carousel-indicators {
+  bottom:-70px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #015249;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);  
+}
+.carousel-indicators .active {
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    background-color: #57BC90;
+}
+
+.carousel-item active{
+  width: 200px; 
+  height: 120px; 
+}
+
+
+.carousel-item img{
+  width: auto;
+  height: 245px;
+  max-height: 245px;
+  margin: auto; 
+  display: block;
+ }
+
+
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
