@@ -1,0 +1,63 @@
+/* Pastel pills just for the Skills section */
+#skills .badge {
+  font-weight: 600;
+  padding: .45rem .7rem;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .04);
+}
+
+#skills .badge-primary {
+  background: #EAF2FF;
+  color: #0B63CE;
+  border-color: #D6E6FF;
+}
+
+#skills .badge-secondary {
+  background: #ECEFF3;
+  color: #475569;
+  border-color: #E2E7EE;
+}
+
+#skills .badge-info {
+  background: #E6F6F9;
+  color: #0E7490;
+  border-color: #D1EEF3;
+}
+
+#skills .badge-dark {
+  background: #EEF1F4;
+  color: #334155;
+  border-color: #E3E8EE;
+}
+
+#skills .badge-light {
+  background: #F7F9FB;
+  color: #334155;
+  border-color: #EEF2F7;
+}
+
+#skills .badge-success {
+  background: #E8F6EC;
+  color: #1B7F37;
+  border-color: #D6EEDF;
+}
+
+#skills .badge-warning {
+  background: #FFF6D9;
+  color: #7A5E00;
+  border-color: #FFEFC0;
+}
+
+#skills .badge:hover {
+  filter: saturate(1.05) brightness(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .06);
+}
+
+#skills .card.shadow-sm {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .05);
+}
+
+#skills .skills-badges {
+  gap: .5rem;
+}
