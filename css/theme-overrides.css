@@ -61,3 +61,104 @@
 #skills .skills-badges {
   gap: .5rem;
 }
+
+/* Career-at-a-glance strip in the hero */
+#about .breadth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: .75rem;
+  max-width: 960px;
+}
+
+#about .breadth-item {
+  display: flex;
+  align-items: flex-start;
+  gap: .75rem;
+  padding: .75rem .9rem;
+  background: #F7F9FB;
+  border: 1px solid #EEF2F7;
+  border-radius: .6rem;
+}
+
+#about .breadth-item i {
+  color: #015249;
+  font-size: 1.1rem;
+  width: 1.25rem;
+  text-align: center;
+  margin-top: .2rem;
+}
+
+#about .breadth-item strong {
+  display: block;
+  color: #343a40;
+  font-size: .95rem;
+}
+
+#about .breadth-item span {
+  display: block;
+  color: #6c757d;
+  font-size: .85rem;
+  line-height: 1.3;
+}
+
+
+/* Email button in the hero social row */
+.social-icons a.contact-btn {
+  width: auto;
+  height: 3.5rem;
+  padding: 0 1.5rem;
+  border-radius: 9999px;
+  border: none;
+  background-color: #015249;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: .02em;
+}
+
+.social-icons a.contact-btn:hover {
+  background-color: #57BC90;
+}
+
+/* Case studies and writing cards */
+.case-study,
+.writing-card {
+  padding: 1.5rem 1.75rem;
+  background: #fff;
+  border: 1px solid #E3E8EE;
+  border-left: 4px solid #57BC90;
+  border-radius: .6rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .04);
+}
+
+.case-tag {
+  font-size: .75rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #57BC90;
+  margin-bottom: .35rem;
+}
+
+.case-study h4 {
+  font-size: .85rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #015249;
+  margin-bottom: .4rem;
+}
+
+.case-study p,
+.writing-card p {
+  margin-bottom: 0;
+}
+
+.writing-card p {
+  margin-bottom: .75rem;
+}
+
+/* Condensed earlier experience */
+.earlier-list li {
+  margin-bottom: .6rem;
+}
